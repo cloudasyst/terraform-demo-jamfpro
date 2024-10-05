@@ -21,7 +21,7 @@
 
 resource "jamfpro_building" "jamfpro_building_003" {
    name            = "tf-demo-Apple-Battersea"
-   street_address1 = "Ground Floor, Turbine Hall A, Circus Rd W, Nine Elms11"
+   street_address1 = "Ground Floor, Turbine Hall Aa, Circus Rd W, Nine Elms11"
    street_address2 = "Suite 1100"
    city            = "London"
    state_province  = "London"
