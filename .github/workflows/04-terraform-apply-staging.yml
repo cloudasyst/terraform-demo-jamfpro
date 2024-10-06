@@ -37,7 +37,7 @@ jobs:
       config_directory: "workload/terraform/jamfpro"
       debug: true
     secrets:
-      TF_API_TOKEN: "Bdc2AiDYBbnU6w.atlasv1.GtpXoqPFhLHWzWHJnDt6YlbGXIoxzRBBYMjuErDqqjikC8muXS10FVzzfDZHJOElZGw"
+      TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
 
   update-release:
     needs: [terraform-apply]
