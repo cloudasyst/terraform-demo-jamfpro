@@ -40,8 +40,8 @@ jobs:
     needs: create-version-and-release
     uses: ./.github/workflows/terraform-plan.yml
     with:
-      tf_cloud_organization: "deploymenttheory"
-      tf_workspace: "terraform-jamfpro-staging" 
+      tf_cloud_organization: "cba_commonwealdharmffjkr"
+      tf_workspace: "commonwealdharmffjkr_staging" 
       target_environment: "staging"
       debug: ${{ inputs.debug }}
       config_directory: "workload/terraform/jamfpro"
