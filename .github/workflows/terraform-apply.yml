@@ -93,7 +93,7 @@ jobs:
           egress-policy: audit
 
       - name: Set TF_API_TOKEN as environment variable
-        run: echo "TF_API_TOKEN=${{ secrets.STAGING }}" >> $GITHUB_ENV
+        run: echo "TF_API_TOKEN=${{ secrets.TF_API_TOKEN }}" >> $GITHUB_ENV
       
       - name: Verify Terraform Cloud API Token
         if: ${{ inputs.debug }}
