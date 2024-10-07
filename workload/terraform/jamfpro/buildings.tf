@@ -28,3 +28,13 @@ resource "jamfpro_building" "jamfpro_building_003" {
    zip_postal_code = "SW11 8AL"
    country         = "United Kingdom"
  }
+
+resource "jamfpro_building" "jamfpro_building_004" {
+   name            = "tf-demo-Apple-Battersea"
+   street_address1 = "USA Floor, Turbine Hall Aa, Circus Rd W, Nine Elms11"
+   street_address2 = "USA 1100"
+   city            = "USA"
+   state_province  = "USA"
+   zip_postal_code = "USA 8AL"
+   country         = "USA"
+ }

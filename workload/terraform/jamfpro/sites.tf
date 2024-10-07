@@ -6,7 +6,7 @@
 #   name = "tf-demo-site-india"
 # }
 
-# resource "jamfpro_site" "jamfpro_site_003" {
-#   name = "tf-demo-site-usa"
-# }
+resource "jamfpro_site" "jamfpro_site_003" {
+  name = "USA"
+}
 
