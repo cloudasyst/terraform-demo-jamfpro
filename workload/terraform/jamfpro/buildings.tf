@@ -20,7 +20,7 @@
 # }
 
 resource "jamfpro_building" "jamfpro_building_003" {
-   name            = "tf-demo-Apple-Battersea"
+   name            = "tf-demo-Apple-London"
    street_address1 = "Ground Floor, Turbine Hall Aa, Circus Rd W, Nine Elms11"
    street_address2 = "Suite 1100"
    city            = "London"
@@ -30,7 +30,7 @@ resource "jamfpro_building" "jamfpro_building_003" {
  }
 
 resource "jamfpro_building" "jamfpro_building_004" {
-   name            = "tf-demo-Apple-Battersea"
+   name            = "tf-demo-Apple-USA"
    street_address1 = "USA Floor, Turbine Hall Aa, Circus Rd W, Nine Elms11"
    street_address2 = "USA 1100"
    city            = "USA"
