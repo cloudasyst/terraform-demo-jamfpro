@@ -38,3 +38,14 @@ resource "jamfpro_building" "jamfpro_building_004" {
    zip_postal_code = "USA 8AL"
    country         = "USA"
  }
+
+
+resource "jamfpro_building" "jamfpro_building_005" {
+   name            = "tf-demo-Apple-IND"
+   street_address1 = "USA Floor, Turbine Hall Aa, Circus Rd W, Nine Elms11"
+   street_address2 = "IND 1100"
+   city            = "IND"
+   state_province  = "IND"
+   zip_postal_code = "IND 8AL"
+   country         = "IND"
+ }
